@@ -1,6 +1,6 @@
 function parent() {
   var innerVariable = "Go to your room!";
-  console.log(inaccessible) // inaccessible is not defined
+  console.log(inaccessible) // inaccessible is not defined - will break the function
   return function child() {
     var inaccessible = "**sneaks out the bedroom window**";
     return innerVariable;
